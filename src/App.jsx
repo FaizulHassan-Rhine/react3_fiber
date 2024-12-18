@@ -58,7 +58,7 @@ const Box = ({position,size}) => {
 
 const Model = () => {
   const result = useLoader(GLTFLoader, "./model.glb")
-  return <primitive object={result.scene} scale={[30, 30, 30]} position={[0, 2, 0]} rotation={[0, Math.PI/1.1, -0.2]} />
+  return <primitive object={result.scene} scale={[30, 30, 30]} position={[0, 0, 0]} rotation={[0, Math.PI/1.1, -0.2]} />
 }
 const Circle = ({position,size,color}) => {
 
